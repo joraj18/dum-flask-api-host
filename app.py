@@ -7,7 +7,7 @@ from controller.service_provider_api import sevice_provider_api_bp
 # from controllers.login import member_api_bp
 
 app = Flask(__name__)
-CORS(app)
+# CORS(app)
 
 #register Blueprints
 app.register_blueprint(sevice_provider_api_bp)
